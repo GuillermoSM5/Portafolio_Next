@@ -5,6 +5,8 @@ import { MainLayout } from '@/Layouts';
 const inter = Inter({ subsets: ['latin'] });
 
 export default function Home() {
+	//TO-DO : Poner mi cv para descargar
+
 	return (
 		<div>
 			<MainLayout title="Guillermo Soto - Home" pageDescription="Hola">
@@ -21,6 +23,12 @@ export default function Home() {
 								de los proyectos en los que he trabajado
 							</p>
 						</div>
+						<a
+							href=""
+							className="w-52 no-underline font-bold py-2 px-4 bg-[#e48900] mb-4 mt-4 tracking-widest rounded-[20px] hover:bg-[#c06014]"
+						>
+							Cv
+						</a>
 					</div>
 				</div>
 			</MainLayout>

@@ -5,6 +5,17 @@
 @import './Navbar.scss';
 @import './Footer.scss';
 
+//Fonts
+@font-face {
+	font-family: 'NotoSansTC';
+	src: url('/Fonts/NotoSansTC-Light.otf');
+}
+
+@font-face {
+	font-family: 'RubikPixels';
+	src: url('/Fonts/RubikPixels-Regular.ttf');
+}
+
 :root {
 	--foreground-rgb: 0, 0, 0;
 	--background-start-rgb: 214, 219, 220;
@@ -20,6 +31,7 @@
 }
 
 body {
+	font-family: Arial, Helvetica, sans-serif;
 	color: rgb(var(--foreground-rgb));
 	background: linear-gradient(
 			to bottom,
