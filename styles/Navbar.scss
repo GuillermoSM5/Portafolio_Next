@@ -1,0 +1,27 @@
+.header{
+    border-bottom: 0.0625rem solid #e48900;
+}
+
+.header_link{
+    @apply px-8 overflow-hidden text-2xl mx-3;
+
+    &::before {
+        content: '';
+        background-color: #e48900;
+        position: absolute;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        z-index: -10;
+    }
+    &:hover {
+        transform: scale(1.2);
+        transition: all 0.5s ease;
+        color: #000;
+        &::before {
+            transform: translateX(100%);
+            transition: all 0.5s ease-out;
+        }
+    }
+}
