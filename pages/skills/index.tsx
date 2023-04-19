@@ -18,9 +18,7 @@ const index = () => {
 			pageDescription={'Parte de mi conocimiento'}
 		>
 			<div className="w-[90%] m-auto">
-				<h2 className="text-center tracking-widest text-3xl font-black my-12 mx-8">
-					Habilidades
-				</h2>
+				<h2 className="title-h2">Habilidades</h2>
 
 				<div className="flex justify-around w-[90%] mb-16 mt-24 mx-auto">
 					<Card name={'JavaScript'}>

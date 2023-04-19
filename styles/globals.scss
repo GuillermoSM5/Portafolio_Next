@@ -40,3 +40,7 @@ body {
 		)
 		rgb(var(--background-start-rgb));
 }
+
+.title-h2 {
+	@apply text-center tracking-widest text-3xl font-bold my-12 mx-8;
+}

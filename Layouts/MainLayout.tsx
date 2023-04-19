@@ -19,17 +19,17 @@ export const MainLayout: FC<Props> = ({
 		<>
 			<Head>
 				<title>{title}</title>
-
-				<nav>
-					<HeaderNav />
-				</nav>
-
-				<main>{children}</main>
-
-				<footer>
-					<FooterNav />
-				</footer>
 			</Head>
+
+			<main>
+				<div className="relative min-h-screen">
+					<HeaderNav />
+
+					{children}
+
+					<FooterNav />
+				</div>
+			</main>
 		</>
 	);
 };
