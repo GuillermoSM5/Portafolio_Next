@@ -1,6 +1,8 @@
 .container-project {
-	&:hover .image-project {
-		transform: translatey(8rem);
-		transition: all 0.2s ease-in;
+	@media (min-width: 1024px) {
+		&:hover .image-project {
+			transform: translatey(8rem);
+			transition: all 0.2s ease-in;
+		}
 	}
 }

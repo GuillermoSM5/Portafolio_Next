@@ -10,7 +10,8 @@ interface Props {
 
 export const Project: FC<Props> = ({ data }) => {
 	return (
-		<div className="w-[30rem] h-[26rem] text-center m-auto">
+		// <div className="w-[30rem] h-[26rem] text-center m-auto">
+		<div className="w-[20rem] h-[26rem] text-center m-auto lg:w-[30rem]">
 			<div className="relative h-[23rem] container-project">
 				<h3>{data.title}</h3>
 				<p className=" max-h-14 mt-4">{data.Descripcion}</p>
@@ -38,7 +39,8 @@ export const Project: FC<Props> = ({ data }) => {
 						Sitio Web
 					</a>
 				</div>
-				<div className="w-full absolute top-8 left-0 image-project">
+				{/* <div className="w-full absolute top-8 left-0 image-project"> */}
+				<div className="w-full relative left-0  lg:top-8 lg:absolute image-project">
 					<Image className="w-full" src={data.image} alt="" />
 				</div>
 			</div>
