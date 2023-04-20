@@ -29,7 +29,7 @@ export const FooterNav = () => {
 				</a>
 			</div>
 			<div>
-				<p>Este sitio fue creado en Next.js por Guillermo Soto 😁 </p>
+				<p>Este sitio fue desarrollado en Next.js por Guillermo Soto 😁 </p>
 			</div>
 		</div>
 	);

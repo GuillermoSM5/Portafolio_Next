@@ -18,7 +18,8 @@ export interface Proyecto {
 const Proyectos: Proyecto[] = [
 	{
 		title: 'Portafolio',
-		Descripcion: 'Sito web hecho en Next,js que estan viendo en este momento',
+		Descripcion:
+			'Sito web desarrollado en Next,js que estan viendo en este momento',
 		repo: 'https://github.com/GuillermoSM5/Portafolio',
 		web: 'https://guillermo-cv.netlify.app/',
 		image: CV,

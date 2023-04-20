@@ -12,9 +12,11 @@ export default function Home() {
 			<MainLayout title="Guillermo Soto - Home" pageDescription="Hola">
 				<div className="absolute top-[33%] left-[5%] m-auto flex justify-center w-[90%] items-center">
 					<div className="text-center flex flex-col items-center">
-						<div className="flex text-center">
-							<h2 className="text-start text-9xl">Hola!</h2>
-							<p className="text-start items-center text-base pt-4 ml-4 w-[400px] tracking-widest leading-7">
+						<div className="flex flex-col items-center lg:flex-row">
+							<h2 className="text-center text-8xl lg:text-start lg:text-9xl">
+								Hola!
+							</h2>
+							<p className="text-center w-full my-4 lg:text-start lg:text-base lg:pt-4 lg:ml-4 lg:w-[400px] lg:tracking-widest">
 								Mi nombre es
 								<span className="mb-[10px] rounded-[10px] font-bold bg-[#e48900] py-1 px-2 mx-2">
 									Guillermo Soto
