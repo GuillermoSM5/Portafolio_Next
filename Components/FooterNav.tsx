@@ -28,7 +28,7 @@ export const FooterNav = () => {
 					<FiMail />
 				</a>
 			</div>
-			<div>
+			<div className="text-xs lg:text-base">
 				<p>Este sitio fue desarrollado en Next.js por Guillermo Soto 😁 </p>
 			</div>
 		</div>
