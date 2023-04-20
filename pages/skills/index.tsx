@@ -20,7 +20,7 @@ const index = () => {
 			<div className="w-[90%] m-auto">
 				<h2 className="title-h2">Habilidades</h2>
 
-				<div className="flex justify-around w-[90%] mb-16 mt-24 mx-auto">
+				<div className="grid grid-cols-2 gap-y-12 mx-auto lg:grid-cols-4 lg:mt-20 lg:gap-y-24">
 					<Card name={'JavaScript'}>
 						<SiJavascript color="#fce51c" size={'3rem'} />
 					</Card>
@@ -33,8 +33,6 @@ const index = () => {
 					<Card name={'Next.js'}>
 						<SiNextdotjs color="white" size={'3rem'} />
 					</Card>
-				</div>
-				<div className="flex justify-around w-[90%] my-16 mx-auto">
 					<Card name={'React'}>
 						<FaReact color="#64dcfc" size={'3rem'} />
 					</Card>
