@@ -22,7 +22,7 @@ export const MainLayout: FC<Props> = ({
 			</Head>
 
 			<main>
-				<div className="relative min-h-screen">
+				<div className="relative h-screen">
 					<HeaderNav />
 
 					{children}
