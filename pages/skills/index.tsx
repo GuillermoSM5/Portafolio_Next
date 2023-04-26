@@ -1,4 +1,4 @@
-import { Card } from '@/components';
+import { Card } from '@/Components';
 import { MainLayout } from '@/Layouts';
 import { FaReact } from 'react-icons/fa';
 import {
