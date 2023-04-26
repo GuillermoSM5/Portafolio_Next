@@ -1,4 +1,4 @@
-import { Project } from '@/components/Project';
+import { Project } from '@/components';
 import { MainLayout } from '@/Layouts';
 import Proyectos from '@/utils/Models';
 import React from 'react';
