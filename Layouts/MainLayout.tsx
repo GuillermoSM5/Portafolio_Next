@@ -22,7 +22,7 @@ export const MainLayout: FC<Props> = ({
 			</Head>
 
 			<main>
-				<div className="relative h-screen" style={{ minHeight: '100vh' }}>
+				<div className="relative min-h-screen">
 					<HeaderNav />
 
 					{children}
