@@ -17,7 +17,7 @@ const index = () => {
 			title={'Skills - Guillermo Soto'}
 			pageDescription={'Parte de mi conocimiento'}
 		>
-			<div className="w-[90%] m-auto">
+			<div className="w-[90%] m-auto pb-16">
 				<h2 className="title-h2">Habilidades</h2>
 
 				<div className="grid grid-cols-2 gap-y-12 mx-auto lg:grid-cols-4 lg:mt-20 lg:gap-y-24">
