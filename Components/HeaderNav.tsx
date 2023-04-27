@@ -59,8 +59,12 @@ export const HeaderNav = () => {
 			>
 				<BsEmojiSunglassesFill />
 			</div>
-			<Drawer placement={'top'} onClose={clickButton} isOpen={isOpen}>
-				<DrawerOverlay />
+			<Drawer
+				placement={'top'}
+				onClose={clickButton}
+				isOpen={isOpen}
+				autoFocus={false}
+			>
 				<DrawerContent>
 					<DrawerBody>
 						<div className="flex flex-col">
