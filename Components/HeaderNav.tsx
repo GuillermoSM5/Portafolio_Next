@@ -21,11 +21,6 @@ export const HeaderNav = () => {
 		setIsOpen(!isOpen);
 	};
 
-	console.log(bg);
-	// const changeTheme = () => {
-	// 	console.log('aaaa');
-	// };
-
 	return (
 		<div className="m-auto w-[90%] header  py-3 lg:py-7 relative">
 			<div
