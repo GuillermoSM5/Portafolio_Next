@@ -24,10 +24,7 @@ export const MainLayout: FC<Props> = ({
 				<title>{title}</title>
 
 				<meta property="og:title" content={title} />
-				<meta
-					property="og:description"
-					content="Get from SEO newbie to SEO pro in 8 simple steps."
-				/>
+				<meta property="og:description" content={pageDescription} />
 				<meta property="og:image" content={`${origin}/img/aboutme.jpg`} />
 			</Head>
 

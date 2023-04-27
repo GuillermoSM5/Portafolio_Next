@@ -6,7 +6,7 @@ import Image from 'next/image';
 
 const index = () => {
 	return (
-		<MainLayout title={'Sobre mi'} pageDescription={''}>
+		<MainLayout title={'Sobre mi'} pageDescription={'Sobre mi'}>
 			<div className="w-[90%] m-auto pb-28">
 				<h2 className="title-h2">Sobre mí</h2>
 				{/* <div className="flex justify-center items-center "> */}

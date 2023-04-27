@@ -5,7 +5,10 @@ import React from 'react';
 
 const index = () => {
 	return (
-		<MainLayout title={'Mis Proyectos'} pageDescription={''}>
+		<MainLayout
+			title={'Mis Proyectos'}
+			pageDescription={'Algunos de los proyectos que eh realizado'}
+		>
 			<div className="w-[90%] m-auto pb-[4.5rem]">
 				<h2 className="title-h2">Proyectos</h2>
 				<div className="grid grid-cols-1 lg:grid-cols-2">

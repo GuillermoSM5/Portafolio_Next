@@ -9,14 +9,10 @@ export default function Home() {
 
 	return (
 		<div>
-			<MainLayout title="Guillermo Soto - Home" pageDescription="Hola">
-				{/* <Image
-					src={'/img/aboutme.jpg'}
-					alt={''}
-					width={100}
-					height={100}
-					// style={{ border: '1px solid red' }}
-				/> */}
+			<MainLayout
+				title="Guillermo Soto - Home"
+				pageDescription="Hola! mi nombre es Guillermo Soto"
+			>
 				<div className="absolute top-[33%] left-[5%] m-auto flex justify-center w-[90%] items-center">
 					<div className="text-center flex flex-col items-center">
 						<div className="flex flex-col items-center lg:flex-row">
