@@ -1,6 +1,6 @@
 import { Project } from '@/Components';
 import { MainLayout } from '@/Layouts';
-import Proyectos from '@/utils/Models';
+import { Proyectos } from '@/utils/Models';
 import React from 'react';
 
 const index = () => {
