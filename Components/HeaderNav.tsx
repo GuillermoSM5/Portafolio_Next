@@ -40,9 +40,9 @@ export const HeaderNav = () => {
 				<Link className="header_link" href={'./projects'}>
 					Proyectos
 				</Link>
-				{/* <Link className="header_link" href={'./experience'}>
+				<Link className="header_link" href={'./experience'}>
 					Experiencia
-				</Link> */}
+				</Link>
 				<Link className="header_link" href={'./aboutme'}>
 					Sobre Mi
 				</Link>

@@ -15,7 +15,14 @@ export interface Proyecto {
 	image: StaticImageData;
 }
 
-const Proyectos: Proyecto[] = [
+export interface Experience {
+	puesto: string;
+	compañía: string;
+	duracion: string;
+	features: string[];
+}
+
+export const Proyectos: Proyecto[] = [
 	{
 		title: 'Portafolio',
 		Descripcion:
@@ -70,4 +77,21 @@ const Proyectos: Proyecto[] = [
 		image: Shopping,
 	},
 ];
-export default Proyectos;
+
+export const Experiences: Experience[] = [
+	{
+		puesto: 'Front developer',
+		compañía: 'Stefanini',
+		duracion: 'mayo 2021 - actualidad',
+		features: [
+			'Colaboracion en proyectos en React y Angular con TypeScript para clientes como Banorte',
+			'Estimacion de requerimientos del cliente',
+		],
+	},
+	{
+		puesto: 'Front developer',
+		compañía: 'MX Software Solutions',
+		duracion: 'Proyecto de agosto 2022 - diciembre 2022',
+		features: ['Colaboracion en proyecto ecommerce con el framework Next,js'],
+	},
+];
