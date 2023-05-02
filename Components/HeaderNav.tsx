@@ -23,11 +23,8 @@ export const HeaderNav = () => {
 
 	return (
 		<div className="m-auto w-[90%] header  py-3 lg:py-7 relative">
-			<div
-				className="lg:hidden text-[#e48900] text-3xl flex justify-end"
-				onClick={clickButton}
-			>
-				<FaHamburger />
+			<div className="lg:hidden text-[#e48900] text-3xl flex justify-end ">
+				<FaHamburger onClick={clickButton} />
 			</div>
 
 			<div className="hidden lg:flex lg:justify-center lg:items-center ">
