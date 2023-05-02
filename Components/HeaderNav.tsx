@@ -72,9 +72,9 @@ export const HeaderNav = () => {
 							<Link className="my-2" href={'./projects'}>
 								Proyectos
 							</Link>
-							{/* <Link className="header_link" href={'./experience'}>
-				Experiencia
-			</Link> */}
+							<Link className="my-2" href={'./experience'}>
+								Experiencia
+							</Link>
 							<Link className="my-2" href={'./aboutme'}>
 								Sobre Mi
 							</Link>

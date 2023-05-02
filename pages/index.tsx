@@ -29,7 +29,8 @@ export default function Home() {
 							</p>
 						</div>
 						<a
-							href=""
+							download={'GuillermoSotoCV.pdf'}
+							href={'GuillermoSotoCV.pdf'}
 							className="w-52 no-underline font-bold py-2 px-4 bg-[#e48900] mb-4 mt-4 tracking-widest rounded-[20px] hover:bg-[#c06014]"
 						>
 							Cv

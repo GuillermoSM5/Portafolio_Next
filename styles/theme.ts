@@ -7,7 +7,19 @@ const config: ThemeConfig = {
 	useSystemColorMode: true,
 };
 
+const components = {
+	Drawer: {
+		// setup light/dark mode component defaults
+		baseStyle: (props: any) => ({
+			dialog: {
+				bg: mode('white', '#e48900')(props),
+			},
+		}),
+	},
+};
+
 const theme = extendTheme({
+	components,
 	config,
 	styles: {
 		global: (props: StyleFunctionProps) => ({
