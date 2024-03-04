@@ -91,7 +91,7 @@ export const Experiences: Experience[] = [
 	{
 		puesto: 'Front developer',
 		compañía: 'MX Software Solutions',
-		duracion: 'Proyecto de agosto 2022 - diciembre 2022',
+		duracion: 'agosto 2022 - actualidad',
 		features: [
 			'Colaboracion en el desarrollo de un ecommerce con el framework Next.js',
 		],
